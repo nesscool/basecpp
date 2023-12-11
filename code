@@ -4,4 +4,4 @@ NAME=crackerjack
 EMAIL=watjen.fire@gmail.com
 PROJECT=basecpp
 
-docker run -it -e NAME=$NAME -e EMAIL=$EMAIL -e PROJECT=$PROJECT --mount type=bind,source=/home/swatjen/c++/$PROJECT,target=/$PROJECT --workdir /$PROJECT basecpp:base
+docker run -it -e NAME=$NAME -e EMAIL=$EMAIL -e PROJECT=$PROJECT --mount type=bind,source=/home/swatjen/c++/$PROJECT,target=/$PROJECT --workdir /$PROJECT nesscool/basecpp:base
